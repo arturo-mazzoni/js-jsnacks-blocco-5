@@ -95,90 +95,89 @@
 // // Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 //
 //
-arrayZucchine = [
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 10
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 12
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 17
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 15
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 14
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 18
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 15
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 11
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 19
-  },
-  {
-    varieta : "bianca",
-    peso : 1,
-    lunghezza : 17
-  },
-];
-
-var arraySmall = [];
-var arrayBig = [];
-
-
-for (var i = 0; i < arrayZucchine.length; i++){
-  if (arrayZucchine[i].lunghezza < 15){
-    arraySmall.push(arrayZucchine[i])
-  }
-
-  if (arrayZucchine[i].lunghezza > 15){
-    arrayBig.push(arrayZucchine[i])
-  }
-}
-
-var pesoSmall = 0;
-
-for (var i = 0; i < arraySmall.length; i++){
-  pesoSmall = arraySmall[i].peso + pesoSmall;
-}
-console.log(pesoSmall);
-
-
-var pesoBig = 0;
-
-for (var i = 0; i < arraySmall.length; i++){
-  pesoBig = arraySmall[i].peso + pesoBig;
-}
-console.log(pesoBig);
-
-
-
-console.log(arrayZucchine);
-console.log(arraySmall);
-console.log(arrayBig);
+// arrayZucchine = [
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 10
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 12
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 17
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 15
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 14
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 18
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 15
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 11
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 19
+//   },
+//   {
+//     varieta : "bianca",
+//     peso : 1,
+//     lunghezza : 17
+//   },
+// ];
+//
+// var arraySmall = [];
+// var arrayBig = [];
+//
+//
+// for (var i = 0; i < arrayZucchine.length; i++){
+//   if (arrayZucchine[i].lunghezza < 15){
+//     arraySmall.push(arrayZucchine[i])
+//   }
+//
+//   if (arrayZucchine[i].lunghezza > 15){
+//     arrayBig.push(arrayZucchine[i])
+//   }
+// }
+//
+// var pesoSmall = 0;
+//
+// for (var i = 0; i < arraySmall.length; i++){
+//   pesoSmall = arraySmall[i].peso + pesoSmall;
+// }
+// console.log(pesoSmall);
+//
+//
+// var pesoBig = 0;
+//
+// for (var i = 0; i < arraySmall.length; i++){
+//   pesoBig = arraySmall[i].peso + pesoBig;
+// }
+// console.log(pesoBig);
+//
+//
+// console.log(arrayZucchine);
+// console.log(arraySmall);
+// console.log(arrayBig);
