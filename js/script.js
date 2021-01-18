@@ -26,70 +26,75 @@
 
 // arrayZucchine = [
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 //   {
-//     varieta : bianca,
+//     varieta : "bianca",
 //     peso : 1,
 //     lunghezza : 10
 //   },
 // ];
 //
+// var wheigh = 0;
+//
 // for (var i = 0; i < arrayZucchine.length; i++){
-//   for (var k in )
+//   wheigh = arrayZucchine[i].peso + wheigh;
 // }
+//
+// console.log(wheigh);
 
 
 
-// **********snack 3***************************************
 
-// Creare  un array che contiene 10 oggetti che rappresentano una zucchina.
-// Dividi in due array separati le zucchine che misurano meno o più di 15cm.
-// Infine stampa separatamente quanto pesano i due gruppi di zucchine.
-
-
+// // **********snack 3***************************************
+//
+// // Creare  un array che contiene 10 oggetti che rappresentano una zucchina.
+// // Dividi in due array separati le zucchine che misurano meno o più di 15cm.
+// // Infine stampa separatamente quanto pesano i due gruppi di zucchine.
+//
+//
 arrayZucchine = [
   {
     varieta : "bianca",
@@ -160,19 +165,17 @@ for (var i = 0; i < arrayZucchine.length; i++){
 var pesoSmall = 0;
 
 for (var i = 0; i < arraySmall.length; i++){
-  arraySmall[i].peso + pesoSmall;
+  pesoSmall = arraySmall[i].peso + pesoSmall;
 }
-
 console.log(pesoSmall);
 
 
+var pesoBig = 0;
 
-
-
-
-
-
-
+for (var i = 0; i < arraySmall.length; i++){
+  pesoBig = arraySmall[i].peso + pesoBig;
+}
+console.log(pesoBig);
 
 
 
