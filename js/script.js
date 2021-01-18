@@ -7,14 +7,16 @@
 // Attraverso un prompt dare la possibilità all'utente di modificare il peso della palla.
 
 
-// var palla = {
-//   nome : palla,
-//   peso : 10
-// };
-//
-// var modifica = parseInt(prompt("inserisci il nuovo peso"));
+var palla = {
+  nome : palla,
+  peso : 10
+};
 
+var modifica = parseInt(prompt("inserisci il nuovo peso"));
 
+palla.peso = modifica;
+
+console.log(palla.peso);
 
 
 
